@@ -1,7 +1,10 @@
 {
   "name": "create-react-ts-template",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./cli.js",
+  "bin": {
+    "create-react-ts-template": "./cli.js"
+  },
   "scripts": {
     "test": "tsc --noEmit",
     "build": "tsc"
