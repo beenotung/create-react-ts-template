@@ -6,6 +6,7 @@ async function main() {
     dest,
     gitSrc: 'https://github.com/beenotung/create-react-ts-template',
     srcDir: 'template/my-app',
+    showLog: true,
   })
   console.log(
     `
