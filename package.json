@@ -22,7 +22,7 @@
   "license": "BSD-2-Clause",
   "dependencies": {
     "degit": "^2.8.4",
-    "npm-init-helper": "^1.0.0"
+    "npm-init-helper": "^1.0.1"
   },
   "devDependencies": {
     "@types/degit": "^2.8.2",
