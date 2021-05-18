@@ -27,7 +27,8 @@ Details refer to create-react-app (typescript template).
 Get started by typing:
 
   cd ${dest}
-  <install*>
+  pnpm i --shamefully-hoist
+  npm start
 
 
 Installation Alternatives:
