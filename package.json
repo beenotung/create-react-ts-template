@@ -1,9 +1,9 @@
 {
   "name": "create-react-ts-template",
   "version": "1.0.2",
-  "main": "./cli.js",
+  "main": "./dist/cli.js",
   "bin": {
-    "create-react-ts-template": "./cli.js"
+    "create-react-ts-template": "./dist/cli.js"
   },
   "scripts": {
     "test": "tsc --noEmit",
@@ -21,9 +21,11 @@
   },
   "license": "BSD-2-Clause",
   "dependencies": {
+    "degit": "^2.8.4",
     "npm-init-helper": "^1.0.0"
   },
   "devDependencies": {
+    "@types/degit": "^2.8.2",
     "@types/node": "^15.3.0",
     "ts-node": "^9.1.1",
     "ts-node-dev": "^1.1.6",
