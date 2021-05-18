@@ -1,6 +1,6 @@
 {
   "name": "create-react-ts-template",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "./dist/cli.js",
   "bin": {
     "create-react-ts-template": "./dist/cli.js"
