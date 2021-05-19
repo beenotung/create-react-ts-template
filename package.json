@@ -1,6 +1,7 @@
 {
   "name": "create-react-ts-template",
   "version": "1.0.5",
+  "description": "Create react project using typescript template, but without installing the packages",
   "main": "./dist/cli.js",
   "bin": {
     "create-react-ts-template": "./dist/cli.js"
@@ -38,6 +39,5 @@
   "bugs": {
     "url": "https://github.com/beenotung/create-react-ts-template/issues"
   },
-  "homepage": "https://github.com/beenotung/create-react-ts-template#readme",
-  "description": ""
+  "homepage": "https://github.com/beenotung/create-react-ts-template#readme"
 }
