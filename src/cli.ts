@@ -1,13 +1,13 @@
 #!/usr/bin/env node
-import { copySync } from 'fs-extra'
 import { join } from 'path'
-import { getDest } from 'npm-init-helper'
+import { copyTemplate, getDest } from 'npm-init-helper'
 
 async function main() {
   let dest = await getDest()
-  let src = join(__dirname, '..', 'template', 'my-app')
+  let srcDir = join(__dirname, '..', 'template', 'my-app')
   console.log('Copying react typescript template to:', dest, '...')
-  copySync(src, dest)
+  copyTemplate({ srcDir, dest, updatePackageJson: true })
+
   console.log(
     `
 Done.

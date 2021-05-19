@@ -22,11 +22,9 @@
   },
   "license": "BSD-2-Clause",
   "dependencies": {
-    "fs-extra": "^10.0.0",
-    "npm-init-helper": "^1.0.1"
+    "npm-init-helper": "^1.2.2"
   },
   "devDependencies": {
-    "@types/fs-extra": "^9.0.11",
     "@types/node": "^15.3.0",
     "ts-node": "^9.1.1",
     "ts-node-dev": "^1.1.6",
