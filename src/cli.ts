@@ -6,6 +6,7 @@ import { getDest } from 'npm-init-helper'
 async function main() {
   let dest = await getDest()
   let src = join(__dirname, '..', 'template', 'my-app')
+  console.log('Copying react typescript template to:', dest, '...')
   copySync(src, dest)
   console.log(
     `
