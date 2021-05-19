@@ -1,13 +1,12 @@
 #!/usr/bin/env node
-import { cloneTemplate, getDest } from 'npm-init-helper'
+import { copySync } from 'fs-extra'
+import { join } from 'path'
+import { getDest } from 'npm-init-helper'
+
 async function main() {
   let dest = await getDest()
-  await cloneTemplate({
-    dest,
-    gitSrc: 'https://github.com/beenotung/create-react-ts-template',
-    srcDir: 'template/my-app',
-    showLog: true,
-  })
+  let src = join(__dirname, '..', 'template', 'my-app')
+  copySync(src, dest)
   console.log(
     `
 Done.
