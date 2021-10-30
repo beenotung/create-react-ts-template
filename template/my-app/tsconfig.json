@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "importHelpers": true, // I was told in vscode to do it so that output size becomes less
+    "removeComments": true, // this time I was told in vscode to do it so that output size becomes less
     "target": "es5",
     "lib": [
       "dom",
