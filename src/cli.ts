@@ -28,13 +28,13 @@ Details refer to create-react-app (typescript template).
 Get started by typing:
 
   cd ${dest}
-  pnpm i --shamefully-hoist
+  pnpm i
   npm start
 
 
 Installation Alternatives:
 
-  pnpm i --shamefully-hoist
+  pnpm i
   or
   yarn install
   or

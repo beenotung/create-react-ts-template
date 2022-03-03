@@ -14,7 +14,7 @@ This tool setup the project template without installing the packages. You can th
 ```bash
 > npm init react-ts-template my-app
 > cd my-app
-> pnpm install --shamefully-hoist
+> pnpm install
 > npm start
 ```
 
