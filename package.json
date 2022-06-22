@@ -22,12 +22,12 @@
   },
   "license": "BSD-2-Clause",
   "dependencies": {
-    "npm-init-helper": "^1.2.4"
+    "npm-init-helper": "^1.3.2"
   },
   "devDependencies": {
-    "@types/node": "^16.11.26",
-    "ts-node": "^10.6.0",
-    "typescript": "^4.6.2"
+    "@types/node": "^16.11.41",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
   },
   "repository": {
     "type": "git",
